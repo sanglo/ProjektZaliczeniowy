@@ -13,14 +13,12 @@ Program przyjmuje 3 zbiory danych, każdy ze swoim rozszerzeniem <br>
 </ul>
 Opis techniczny:<br>
 Środowisko: Windows, Visual Studio, Gnuplot<br>
-Używane biblioteki: nlohmann::json, biblioteki standardowe C++20 m.in. array, vector, views, algortihms<br><br>
+Używane biblioteki: nlohmann::json, biblioteki standardowe C++<br><br>
 
 Dokumentacja implementatora:<br>
 Dane .txt, .csv, .json zostają odpowiednio wczytane do struktur Plik_1, Plik_2 oraz Plik_3.<br>
-Wpisy niekompletne są pomijane.<br>
 
-Filtrowanie danych oparte jest o moduł <ranges> z biblioteki standardowej, pozwalający na leniwe wykonywanie<br>
-operacji na zbiorach danych, operacji takich jak filtrowanie danych czy ich transformacje.<br><br>
+
 
 Wizualizowane dane to pojedyncze kolumny danych, <br>
 np. dla danych .txt, pokazany zostaje wykres wieku osób młodszych niż 30 lat z zapaleniem płuc.<br><br>
